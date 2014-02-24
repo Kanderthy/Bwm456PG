@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Andersons jQuery Mobile Web App</title>
+
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/MyCustoms.min.css" rel="stylesheet"type="text/css"/>
+
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+<style>
+	img {max-width:50%;}
+</style>
+
+</head> 
+<body>
+
+
+<div data-role="page" data-theme="a" id="page">
+	<div data-role="header">
+    	<div class="center-wrapper">
+        <p align="center"><img src="jquery-mobile/images/newKA_logo.png" alt="KA Designs Logo" /></p>
+        <h2 align="center">Kathleen Anderson</h2>
+        
+        </div>
+	</div>
+	<div data-role="content" >	   
+		 <a href="#page2" data-role="button" data-icon="arrow-r" data-iconpos="right">About Me</a>
+         <a href="#page3" data-role="button" data-icon="arrow-r" data-iconpos="right">Education</a>
+         <a href="#page4" data-role="button" data-icon="arrow-r" data-iconpos="right">Contact Me</a>
+            
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" data-theme="a" data-transition="slideup" id="page2">
+	<div data-role="header">
+		<h1>About Me</h1>
+	</div>
+	<div data-role="content">
+    <img src="jquery-mobile/images/Me.png" alt="Kathy the Artist" />
+    
+	  <p> I am a local artist that combines discarded 
+            items into beautiful jewelry. I have been working with copper and stainless steel wire for many years. 
+    I also enjoy macramé. This craft was passed on by two old sailors, 
+    my grandfather and his brother.<br>
+ 	My “twist,” macramé with recycled wire. <br>
+    I’m currently attending Pennsylvania College of Technology I will be graduating in May with the 2014 centennial class!</p> 
+
+      <a href="#page" data-rel="back" data-role="button" data-icon="arrow-l">Go Back</a>
+	</div>
+	<div data-role="footer">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" data-theme="a" data-transition="slideup" id="page3">
+	<div data-role="header">
+		<h1>Education</h1>
+	</div>
+	<div data-role="content">
+    <h1>Education</h1>
+2014 Pennsylvania College of Technology						
+Bachelor’s of Science, Web Design and Interactive Media<br>
+
+2010 The Art Institute of Pittsburgh, Online Division				
+Associate’s Degree, Graphic Design<br>
+
+2010 The Art Institute of Pittsburgh, Online Division				
+Diploma, Web Design
+
+	  
+      <a href="#page2" data-rel="back" data-role="button" data-icon="arrow-l" >Go Back</a>
+	</div>
+    <div data-role="footer">
+		<h4>Footer</h4>
+	</div>
+ </div>   
+    
+ <div data-role="page" data-theme="a" data-transition="slideup" id="page4">
+	<div data-role="header">
+		<h1>Contact Me</h1>
+        </div>
+	
+    <div data-role="content">
+    <h2>Mailing Address:</h2> 
+    <p>1094 County Line Road<br>Turbotville,PA<br>17772</p>
+	 
+     <h2>Call Me At:</h2> <p>570-244-5467</p>
+     
+     <h2>My Email:</h2> <p>Kaa6@pct.edu</p>
+      <a href="#page3" data-rel="back" data-role="button" data-icon="home"data-iconpos="top">Back to Home</a>
+      </div>
+	
+    <div data-role="footer">
+		<h4>Footer</h4>
+	</div>
+    
+    
+
+</div>
+</body>
+</html>
